@@ -1,0 +1,5 @@
+store_id,region,store_format,risk_tier
+STR-001 ,northeast,Big Box,High
+STR-002,NorthEast,Express,Low
+STR-003,south,Big Box,Medium
+str-004,Midwest,Big Box,Medium
