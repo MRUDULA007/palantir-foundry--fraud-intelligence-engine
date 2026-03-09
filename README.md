@@ -17,11 +17,16 @@ This product was architected across three distinct layers within the Palantir Fo
 * **Device Fingerprinting:** Engineered logic to group disparate customer accounts by the physical hardware (`Device Id`) used to execute the return.
 * **Risk Aggregation:** Applied a dynamic mathematical threshold to sum the total `Margin Exposure` across shared devices.
 * **Alerting:** Configured automated logic to instantly flag any `Customer Id` with a "CRITICAL - FREEZE REQUIRED" alert if their shared network crosses the defined financial threshold.
+  
+![Pipeline Builder](https://github.com/MRUDULA007/palantir-foundry--fraud-intelligence-engine/blob/17aec645331cad187522eb43c72e069d192e4279/Fraud%20Intelligence%20Ingestion.png)
 
 ### 2. The Digital Twin Layer (Ontology Manager)
 * **Semantic Modeling:** Abstracted raw data into real-world Objects: **Customers**, **Transactions**, and **Stores**.
 * **Relational Mapping:** Engineered 1:Many and Many:Many links between objects to create a connected, 3D web of the retail environment.
 * **Operational Writebacks:** Developed a secure Action (`freeze_fraudulent_account`) to allow immediate database modifications directly from the frontend interface with full auditability.
+  
+![OM Object Types](https://github.com/MRUDULA007/palantir-foundry--fraud-intelligence-engine/blob/17aec645331cad187522eb43c72e069d192e4279/Ontology%20Object%20Types.png)
+![OM Link Types](https://github.com/MRUDULA007/palantir-foundry--fraud-intelligence-engine/blob/17aec645331cad187522eb43c72e069d192e4279/Ontology%20Link%20Types.png)
 
 ### 3. The Operational Application (Workshop)
 Designed and deployed the **Fraud Command Center**, a live investigative dashboard tailored for the Loss Prevention team:
@@ -34,7 +39,7 @@ Designed and deployed the **Fraud Command Center**, a live investigative dashboa
 > **Fraud Command Center Dashboard**
 > *The central investigative hub showing the prioritized inbox (left), the connected fraud ring graph (center), and the single-click operational execution panel (right).*
 
-![Fraud Command Center](images/dashboard_screenshot.png) 
+![Fraud Command Center](https://github.com/MRUDULA007/palantir-foundry--fraud-intelligence-engine/blob/17aec645331cad187522eb43c72e069d192e4279/Fraud%20Command%20Intelligence%20Application.png) 
 
 ## 📈 Business Impact
 * **Reduced Time-to-Action:** Transformed a manual, hours-long investigative spreadsheet process into a three-click workflow.
